@@ -19,7 +19,7 @@ export default function Home() {
 					<Typography className="bolder" variant="h3" color="textPrimary">
 						GoogleCloudReady Facilitator Program Leaderboard
 					</Typography>
-					<Typography className="bolder" variant="h4" color="secondary">
+					<Typography className="bolder" variant="h4" color="textSecondary">
 						Jalpaiguri Government Engineering College
 					</Typography>
 				</div>
