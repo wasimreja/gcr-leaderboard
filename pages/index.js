@@ -23,6 +23,12 @@ export default function Home() {
 						Jalpaiguri Government Engineering College
 					</Typography>
 				</div>
+				<div className="logo">
+                	<img
+                    	src="https://cdn.worldvectorlogo.com/logos/google-cloud-2.svg"
+                    	alt="google cloud logo"
+                	/>
+                </div>				
 				<Table data={data.resultsWithRank}></Table>
 			</div>
 			<div className="center">
