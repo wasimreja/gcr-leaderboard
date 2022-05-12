@@ -19,7 +19,7 @@ export default function Home() {
 					<Typography className="bolder" variant="h3" color="textPrimary">
 						GoogleCloudReady Facilitator Program Leaderboard
 					</Typography>
-					<Typography className="bolder" variant="h4" color="textSecondary">
+					<Typography className="collegeName bolder " variant="h4" color="textSecondary">
 						Jalpaiguri Government Engineering College
 					</Typography>
 				</div>
@@ -31,8 +31,8 @@ export default function Home() {
                 </div>				
 				<Table data={data.resultsWithRank}></Table>
 			</div>
-			<div className="center">
-				<Typography variant="body2" color="textSecondary">
+			<div className="center footer">
+				<Typography variant="body2"  color="textSecondary">
 					<a
 						href="https://github.com/wasimreja"
 						target="_blank"

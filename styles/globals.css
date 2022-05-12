@@ -25,6 +25,22 @@ img {
   height: 150px;
   width: 300px;
 }
+.subhead{
+  margin-left: 41px;
+  margin-top: 15px;
+}
+#tableStyle{
+  width: 94.5%;
+  margin: auto;
+
+}
+.collegeName{
+  margin-top: 20px !important;
+}
+.footer{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
 @media screen and (max-width: 600px) {
   body {
   padding: 0;
