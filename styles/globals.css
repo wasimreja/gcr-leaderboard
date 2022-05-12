@@ -37,9 +37,9 @@ img {
 .collegeName{
   margin-top: 20px !important;
 }
-.washim{
-  margin-bottom: 35px;
-  margin-top: 28px;
+.footer{
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 @media screen and (max-width: 600px) {
   body {

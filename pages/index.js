@@ -31,7 +31,7 @@ export default function Home() {
                 </div>				
 				<Table data={data.resultsWithRank}></Table>
 			</div>
-			<div className="center washim">
+			<div className="center footer">
 				<Typography variant="body2"  color="textSecondary">
 					<a
 						href="https://github.com/wasimreja"
