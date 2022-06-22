@@ -48,6 +48,7 @@ This project is a leaderboard for the students of Jalpaiguri Government Engineer
 
 - [React](https://reactjs.org)
 - [Next.js](https://nextjs.org)
+- [Material UI](https://mui.com)
 
 ## Getting Started
 
