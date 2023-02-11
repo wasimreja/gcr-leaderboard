@@ -14,6 +14,7 @@ a {
 .center {
   text-align: center;
   margin-top: 20px;
+  margin-left: 41px;
 }
 .logo {
   display: flex;
@@ -25,42 +26,41 @@ img {
   height: 150px;
   width: 300px;
 }
-.subhead{
+.subhead {
   margin-left: 41px;
   margin-top: 15px;
 }
-#tableStyle{
+#tableStyle {
   width: 94.5%;
   margin: auto;
-
 }
-.collegeName{
+.collegeName {
   margin-top: 20px !important;
 }
-.footer{
+.footer {
   margin-bottom: 20px;
   margin-top: 15px;
 }
 @media screen and (max-width: 600px) {
   body {
-  padding: 0;
-  max-width: fit-content;
-}
-.mainHeading {
-  text-align: center;
-  font-size: large;
-  max-width: 100%;
-  margin: 20px;
-}
-.bolder {
-  font-weight:bold;
-  font-size: large;
-  text-align: center;
-  margin: 20px;
-}
-.subhead {
-  margin: 20px;
-}
+    padding: 0;
+    max-width: fit-content;
+  }
+  .mainHeading {
+    text-align: center;
+    font-size: large;
+    max-width: 100%;
+    margin: 20px;
+  }
+  .bolder {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: 20px;
+  }
+  .subhead {
+    margin: 20px;
+  }
 }
 .bolder {
   font-weight: 500 !important;

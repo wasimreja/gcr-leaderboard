@@ -11,7 +11,7 @@ export default function Home() {
 			</Head>
 			<div>
 				<footer className="flex apart subhead">
-					<Typography className="subhead" variant="body2" color="textSecondary">
+					<Typography className="subhead bolder" variant="body2" color="textSecondary">
 						Last updated: {data.buildDate}
 					</Typography>
 				</footer>
@@ -19,27 +19,18 @@ export default function Home() {
 					<Typography className="bolder" variant="h3" color="textPrimary">
 						GoogleCloudReady Facilitator Program Leaderboard
 					</Typography>
-					<Typography className="collegeName bolder " variant="h4" color="textSecondary">
+					<Typography className="collegeName bolder" variant="h4" color="textSecondary">
 						Jalpaiguri Government Engineering College
 					</Typography>
 				</div>
 				<div className="logo">
-                	<img
-                    	src="https://cdn.worldvectorlogo.com/logos/google-cloud-2.svg"
-                    	alt="google cloud logo"
-                	/>
-                </div>				
+					<img src="https://cdn.worldvectorlogo.com/logos/google-cloud-2.svg" alt="google cloud logo" />
+				</div>
 				<Table data={data.resultsWithRank}></Table>
 			</div>
 			<div className="center footer">
-				<Typography variant="body2"  color="textSecondary">
-					<a
-						href="https://github.com/wasimreja"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Made with ❤️ by Wasim
-					</a>
+				<Typography variant="body2" color="textSecondary">
+					Made with ❤️ and ☕
 				</Typography>
 			</div>
 		</>
